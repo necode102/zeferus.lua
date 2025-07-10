@@ -5165,7 +5165,7 @@ function Airflow:DrawList(config)
 	ListFrame.BorderSizePixel = 0
 	ListFrame.ClipsDescendants = true
 	ListFrame.Position = UDim2.new(0, 100, 0, 100)
-	ListFrame.Size = UDim2.new(0, 200, 0, 71)
+	ListFrame.Size = UDim2.new(0, 500, 0, 71)
 	ListFrame.ZIndex = 120
 
 	ListFrame:GetPropertyChangedSignal('Size'):Connect(function()
