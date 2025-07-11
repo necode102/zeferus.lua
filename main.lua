@@ -1151,14 +1151,14 @@ function Airflow:Blur(element : Frame) : RBXScriptSignal
 	BlockMesh.Parent = Part;
 
 	Part.Material = Enum.Material.Glass;
-	Part.Transparency = 10;
-	Part.Reflectance = 10;
+	Part.Transparency = 3;
+	Part.Reflectance = 3;
 	Part.CastShadow = false;
 	Part.Anchored = true;
 	Part.CanCollide = false;
 	Part.CanQuery = false;
 	Part.CollisionGroup = Airflow:RandomString();
-	Part.Size = Vector3.new(10, 10, 10) * 0.01;
+	Part.Size = Vector3.new(3, 3, 3) * 0.01;
 	Part.Color = Color3.fromRGB(0,0,0);
 
 	DepthOfField.Enabled = true;
